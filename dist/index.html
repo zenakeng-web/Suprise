@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="envelope-container" id="envelopeContainer">
+  <div class="envelope" id="envelope">
+    <div class="flap"></div>
+    <div class="letter" id="letter">
+      <h2>Open Me 🎁</h2>
+    </div>
+  </div>
+</div>
+
+<div class="card" id="card">
+  <h1>🎉 Happy Birthday Aisyah 🎂</h1>
+  <p>
+    Semoga dipanjangkan umur, dimurahkan rezeki dan menjadi anak yang solehah. Semoga Aisyah selalu happy dan dipermudahkan urusan. Jaga kesihatan jugok tuh. Thanks cah sebab Aisyah buat hari seseorang tu lebih ceria😊. Last kali semoga semua impian Aisyah tercapai. ✨.
+  </p>
+  <p class="footer">
+    Once again, Happy Birthday! 🎈🎉
+  </p>
+  <p class="signature">
+    - AKENG
+  </p>
+</div>
+
+<!-- Muzik -->
+<audio id="music" src="https://www.orangefreesounds.com/wp-content/uploads/2016/08/Happy-birthday-instrumental.mp3"></audio>
+
+<script>
+  document.getElementById("envelope").addEventListener("click", function() {
+    document.getElementById("card").style.display = "block";
+    document.getElementById("music").play();
+  });
+</script>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
